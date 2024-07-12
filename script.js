@@ -4,6 +4,7 @@ const itemsContiner = document.querySelector('.items');
 function sendItem(event) {
 
     if (event.key == 'Enter') {
+
         const itemText = sendInput.value;
         const newItem = document.createElement('div');
 
